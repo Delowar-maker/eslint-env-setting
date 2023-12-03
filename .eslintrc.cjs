@@ -19,3 +19,17 @@ module.exports = {
     "react/prop-types": 0
   },
 }
+
+
+// Next.js 
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "rules": {
+      "react/no-unescaped-entities": "off",
+      "@next/next/no-page-custom-font": "off"
+    }
+  }
+
+  
+}
